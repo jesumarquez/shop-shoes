@@ -1,0 +1,18 @@
+{
+  "name": "zapatillas",
+  "version": "0.1.0",
+  "description": "Catalogo de zapatillas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zapatillas",
+    "shoes"
+  ],
+  "author": "jesumarquez@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
