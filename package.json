@@ -4,7 +4,8 @@
   "description": "Catalogo de zapatillas",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass app.scss public/app.css",
+    "watch": "nodemon server.js"
   },
   "keywords": [
     "zapatillas",
@@ -13,6 +14,12 @@
   "author": "jesumarquez@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "jquery": "^3.1.0",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2"
   }
 }
